@@ -1,0 +1,51 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+
+<body>
+
+<p id="demo"><b>Lorem ipsum dolor sit amet,</b> consectetur adipisicing elit. At quibusdam optio praesentium, repellendus inventore, sit ipsum eum animi, vitae ratione labore blanditiis velit eius saepe. Ratione explicabo quasi, fugit dolorum.</p>
+<p id="demo2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus quas praesentium molestias voluptatibus amet excepturi maiores ut aperiam vitae quis dolore, architecto dolores eaque eos autem aliquid, reiciendis odio provident.</p>
+
+
+<div><button onclick="Rojo()">Rojo</button><button onclick="Azul()">Azul</button><button onclick="Verde()">Verde</button></div>
+<div><button onclick="Rojo2()">Rojo</button><button onclick="Azul2()">Azul</button><button onclick="Verde2()">Verde</button></div>
+<button onclick="Sumar()">Sumador</button><p id="sumador">2</p>
+<a href="Holamundo.html"><button>Atras</button></a>
+
+<script>
+function Rojo() {
+document.getElementById("demo").style.color = "red";
+}
+function Azul() {
+document.getElementById("demo").style.color = "blue";
+}
+function Verde() {
+document.getElementById("demo").style.color = "green";
+}
+function Rojo2() {
+document.getElementById("demo2").style.color = "red";
+}
+function Azul2() {
+document.getElementById("demo2").style.color = "blue";
+}
+function Verde2() {
+document.getElementById("demo2").style.color = "green";
+}
+</script>
+
+<script>
+function Sumar() {
+//alert(document.getElementById("sumador").innerText);
+var x=document.getElementById("sumador").innerText;
+
+document.getElementById("sumador").innerText = x + "1";
+}
+</script>
+
+
+
+</body>
+
+</html>
